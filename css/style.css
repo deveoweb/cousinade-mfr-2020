@@ -7,9 +7,9 @@ body{
 }
 .text-header{
     font-size: 1.2em;
+    color: #5757ee;
 }
 li{
-    color: cornsilk;
     list-style: url('../img/star.svg');
 }
 .logo-img{
@@ -40,7 +40,7 @@ li{
 /* <!-- ******************* Liste des produits ******************** --> */
 
 #liste-produit{
-    border-radius: 50px 5px 60px 5px;
+    border-radius: 50px 0px 60px 0px;
     color: cornsilk;
     background:linear-gradient(45deg,#901d78,#b778aa,#db214c);
 }
@@ -51,9 +51,9 @@ li{
 }
 /* <!-- *********************** Information ***************************** --> */
 #information{
-    height: 100vh;
+    min-height: 100vh;
     background:linear-gradient(45deg,#c0eee1,#5bcbab,#aadcce);
-    border-radius: 5px 60px 5px 60px;
+    border-radius: 5px 60px 25px 0px;
     
 
 
