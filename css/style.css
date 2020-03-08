@@ -5,6 +5,9 @@ body{
     font-family: 'Courgette', cursive;
     color:black;
 }
+.text-header{
+    font-size: 1.2em;
+}
 li{
     color: cornsilk;
     list-style: url('../img/star.svg');
@@ -25,7 +28,6 @@ li{
     filter: blur(0px);
     transition: 1500ms;
 }
-/* <!-- ******************* Main Section ******************** --> */
 .main{
     height: 100vh;
 }
@@ -47,11 +49,12 @@ li{
     font-size: 1rem;
 
 }
-/* <!-- *********************** Footer ***************************** --> */
+/* <!-- *********************** Information ***************************** --> */
 #information{
     height: 100vh;
-    background-color:grey;
-    border-radius: 5px 60px 60px 5px;
+    background:linear-gradient(45deg,#c0eee1,#5bcbab,#aadcce);
+    border-radius: 5px 60px 5px 60px;
+    
 
 
 }
