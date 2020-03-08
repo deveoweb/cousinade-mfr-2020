@@ -38,7 +38,7 @@ li{
 /* <!-- ******************* Liste des produits ******************** --> */
 
 #liste-produit{
-    border-radius: 50px 0 60px 0;
+    border-radius: 50px 5px 60px 5px;
     color: cornsilk;
     background:linear-gradient(45deg,#901d78,#b778aa,#db214c);
 }
@@ -47,6 +47,15 @@ li{
     font-size: 1rem;
 
 }
+/* <!-- *********************** Footer ***************************** --> */
+#information{
+    height: 100vh;
+    background-color:grey;
+    border-radius: 5px 60px 60px 5px;
+
+
+}
+
 /* <!-- *********************** Map ***************************** --> */
 #map{
     border-radius: 0 50px 0 60px 0;
