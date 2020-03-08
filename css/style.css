@@ -1,0 +1,74 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Courgette', cursive;
+    color:black;
+}
+li{
+    color: cornsilk;
+    list-style: url('../img/star.svg');
+}
+.logo-img{
+    height:100px;
+}
+#logo-txt{
+    color: black;
+    font-size: 1rem;
+    font-family: 'Courgette', cursive;
+}
+.header{
+    height: 25vh;
+    filter: blur(300px);
+}
+.no-blur{
+    filter: blur(0px);
+    transition: 1500ms;
+}
+/* <!-- ******************* Main Section ******************** --> */
+.main{
+    height: 100vh;
+}
+.main img {
+    width:40vw;
+}
+#img6{
+    width: 80vw;
+}
+/* <!-- ******************* Liste des produits ******************** --> */
+
+#liste-produit{
+    border-radius: 50px 0 60px 0;
+    color: cornsilk;
+    background:linear-gradient(45deg,#901d78,#b778aa,#db214c);
+}
+#liste-produit h1{
+    color: black;
+    font-size: 1rem;
+
+}
+/* <!-- *********************** Map ***************************** --> */
+#map{
+    border-radius: 0 50px 0 60px 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* <!-- *********************** Footer ***************************** --> */
+footer{
+    border-top: solid rgb(245, 242, 242) 2px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background:linear-gradient(90deg,#901d78,#b778aa,#db214c);
+    height: 10vh;
+    border-radius:20px 20px 0px 0px ;
+}
+
+.nav{
+    height: 100%;
+   padding-top: 2vh;
+}
+.nav i{
+    font-size:6vh; 
+}
