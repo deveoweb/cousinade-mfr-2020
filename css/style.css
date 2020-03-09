@@ -31,12 +31,31 @@ li{
 .main{
     height: 100vh;
 }
-.main img {
+#img1,#img2 {
     width:40vw;
 }
-#img6{
+#img3{
     width: 80vw;
 }
+@media (min-width: 480px) {
+    #img1,#img2 {
+        display: none;
+    }
+    #img3{
+        max-width: 700px;
+    }
+    @media (orientation: landscape) {
+        #img1,#img2 {
+            display: none;
+        }
+        #img3{
+            display: none;
+        }
+        .logo-img{
+            height:80vh;
+        }
+      }
+  }
 /* <!-- ******************* Liste des produits ******************** --> */
 
 #liste-produit{
