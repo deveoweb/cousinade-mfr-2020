@@ -1,4 +1,7 @@
 html{
+    /* +++++++++++++++ */
+    overflow: hidden; 
+    /* +++++++++++++++ */
     scroll-behavior:smooth;
 }
 body{
@@ -59,6 +62,9 @@ li{
 /* <!-- ******************* Liste des produits ******************** --> */
 
 #liste-produit{
+    /* +++++++++++++++ */
+    display:none; 
+    /* +++++++++++++++ */
     border-radius: 50px 0px 60px 0px;
     color: cornsilk;
     background:linear-gradient(45deg,#901d78,#b778aa,#db214c);
@@ -70,6 +76,9 @@ li{
 }
 /* <!-- *********************** Information ***************************** --> */
 #information{
+    /* +++++++++++++++ */
+    display:none; 
+    /* +++++++++++++++ */
     min-height: 100vh;
     background:linear-gradient(45deg,#c0eee1,#5bcbab,#aadcce);
     border-radius: 5px 60px 25px 0px;
@@ -80,6 +89,9 @@ li{
 
 /* <!-- *********************** Map ***************************** --> */
 #map{
+    /* +++++++++++++++ */
+    display:none; 
+    /* +++++++++++++++ */
     border-radius: 0 50px 0 60px 0;
     height: 100vh;
     overflow: hidden;
@@ -87,6 +99,10 @@ li{
 
 /* <!-- *********************** Footer ***************************** --> */
 footer{
+    /* +++++++++++++++ */
+    display:none; 
+    /* +++++++++++++++ */
+
     border-top: solid rgb(245, 242, 242) 2px;
     bottom: 0px;
     position: fixed;
